@@ -16,3 +16,5 @@ class Solution(object):
                     return first[:i]
 
         return first
+
+
