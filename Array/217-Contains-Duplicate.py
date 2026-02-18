@@ -10,3 +10,16 @@ class Solution(object):
                     return True
                 
         return False
+    
+
+
+    def containsDuplicateUsingSet(nums):
+        seen = set()
+
+        for num in nums:
+            if num in seen:
+                return True
+            seen.add(num)
+
+        return False
+
